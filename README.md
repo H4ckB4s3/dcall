@@ -74,7 +74,6 @@ DCALL fetches DNS TXT records for a given domain and processes records with the 
 
 ## Security Notes
 
-### HNS.to Warning
 [HNS.TO](https://hns.to) is insecure for browsing Handshake domains and should only be used for demo or educational purposes.  
 **Recommended alternatives**:
 - fingertip: [LETSDANE](https://github.com/imperviousinc/fingertip), [SANE](https://github.com/randomlogin/fingertip)
