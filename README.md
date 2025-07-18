@@ -23,25 +23,7 @@
 DCALL stores contact data and timestamps in the browser's `localStorage` using the keys `dcall-contacts` (for contact data) and `dcall-last-update` (for the last update timestamp).
 
 ### Storage Location
-Data is stored in SQLite databases in the `leveldb` folder or as `.localstorage` files, depending on the browser:
-
-#### Windows
-- **Chrome**: `C:\Users\<Username>\AppData\Local\Google\Chrome\User Data\Default\Local Storage`
-- **Brave**: `C:\Users\<Username>\AppData\Local\BraveSoftware\Brave-Browser\User Data\Default\Local Storage`
-- **Firefox**: `C:\Users\<Username>\AppData\Roaming\Mozilla\Firefox\Profiles\<profile>\storage\webappsstore.sqlite`
-- **Opera**: `C:\Users\<Username>\AppData\Local\Opera Software\Opera Stable\pstorage`
-
-#### macOS
-- **Chrome**: `~/Library/Application Support/Google/Chrome/Default/Local Storage`
-- **Brave**: `~/Library/Application Support/BraveSoftware/Brave-Browser/Default/Local Storage`
-- **Firefox**: `~/Library/Application Support/Firefox/Profiles/<profile>/storage/webappsstore.sqlite`
-- **Opera**: `~/Library/Application Support/com.operasoftware.Opera/pstorage`
-
-#### Linux
-- **Chrome**: `~/.config/google-chrome/Default/Local Storage`
-- **Brave**: `~/.config/BraveSoftware/Brave-Browser/Default/Local Storage`
-- **Firefox**: `~/.mozilla/firefox/<profile>/storage/webappsstore.sqlite`
-- **Opera**: `~/.config/opera/pstorage`
+Data is stored in SQLite databases in the `leveldb` folder or as `.localstorage` files, depending on the browser.
 
 ### Notes
 - **Device & Browser Specific**: Contact lists are stored locally in the browser, making them specific to the device and browser used. Use the export/import feature to transfer contacts across devices or browsers.
