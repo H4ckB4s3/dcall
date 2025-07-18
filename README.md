@@ -2,7 +2,7 @@
 
 ![DCALL Logo](/img/icon-192.png)
 
-[DCALL](https://dcall.hns.to/hackbase) is a decentralized contact directory application that leverages Handshake domains to fetch and manage contact information stored in DNS TXT records. It allows users to save, update, and organize contacts with support for various communication platforms and cryptocurrency wallets. The application is designed to be user-friendly, privacy-focused, and compatible with both [Handshake](https://handshake.org) (HNS) and ICANN domains.
+[DCALL](https://dcall.hns.to/hackbase) is a decentralized contact directory application that leverages domains to fetch and manage contact information stored in DNS TXT records. It allows users to save, update, and organize contacts with support for various communication platforms and cryptocurrency wallets. The application is designed to be user-friendly, privacy-focused, and compatible with both [Handshake](https://handshake.org) (HNS) and ICANN domains.
 
 ## Features
 
