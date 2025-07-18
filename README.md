@@ -2,7 +2,7 @@
 
 ![DCALL Logo](/img/icon-192.png)
 
-DCALL is a decentralized contact directory application that leverages Handshake domains to fetch and manage contact information stored in DNS TXT records. It allows users to save, update, and organize contacts with support for various communication platforms and cryptocurrency wallets. The application is designed to be user-friendly, privacy-focused, and compatible with both Handshake (HNS) and ICANN domains.
+DCALL is a decentralized contact directory application that leverages Handshake domains to fetch and manage contact information stored in DNS TXT records. It allows users to save, update, and organize contacts with support for various communication platforms and cryptocurrency wallets. The application is designed to be user-friendly, privacy-focused, and compatible with both [Handshake](https://handshake.org) (HNS) and ICANN domains.
 
 ## Features
 
@@ -15,7 +15,7 @@ DCALL is a decentralized contact directory application that leverages Handshake 
 - **HNS & ICANN Compatibility**: Supports both Handshake (HNS) and traditional ICANN domains.
 - **Subdomain-Specific Contact Lists**: Maintain separate contact lists for different subdomains (e.g., work.dcall, friends.dcall, sidechicks.dcall).
 - **Progressive Web App (PWA)**: Save DCALL as an app on mobile or desktop for offline access.
-- **Shareable Contact Links**: Share your contact info easily using URLs like `https://dcall/hackbase` or `https://dcall.hns.to/hackbase`, which autofill the input field in DCALL.
+- **Shareable Contact Links**: Share your contact info easily using URLs like `[https://dcall/hackbase](https://dcall/hackbase)` or `[https://dcall.hns.to/hackbase](https://dcall.hns.to/hackbase)`, which autofill the input field in DCALL.
 
 ## Data Storage
 
