@@ -1,0 +1,38 @@
+server {
+    listen 80;
+    listen [::]:80;
+    listen 443 ssl;
+    ssl_certificate /etc/ssl/dcall.crt;
+    ssl_certificate_key /etc/ssl/dcall.key;
+
+    root /var/www/dcall;
+    index index.html;
+    server_name dcall *.dcall dcall.hns.to *.dcall.hns.to;
+
+    # Handle clean URLs like /domain or /domain.com for dcall and dcall.hns.to
+    location ~ ^/(?<dcall>[^/]+)$ {
+        try_files $uri $uri/ /index.html;
+    }
+
+    location / {
+        try_files $uri $uri/ @htmlext;
+    }
+
+    location ~ \.html$ {
+        try_files $uri =404;
+    }
+
+    location @htmlext {
+        rewrite ^(.*)$ $1.html last;
+    }
+
+    error_page 404 /404.html;
+    location = /404.html {
+        internal;
+    }
+
+    location = /.well-known/wallets/HNS {
+        add_header Cache-Control 'must-revalidate';
+        add_header Content-Type text/plain;
+    }
+}
