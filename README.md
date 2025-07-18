@@ -65,3 +65,24 @@ DCALL fetches DNS TXT records for a given domain and processes records with the 
 - `xmr:`: Monero address
 - `zec:`: Zcash address
 - `bat:`: Basic Attention Token address
+
+## Dependencies
+
+- **Fonts**: [Roboto](https://fonts.google.com/specimen/Roboto) (via Google Fonts)
+- **Icons**: [Material Icons](https://fonts.google.com/icons) (via Google Fonts)
+- **DNS Resolver**: Uses `https://doh.hnsdns.com/dns-query` for fetching TXT records
+
+## Security Notes
+
+### HNS.to Warning
+The application includes a warning that [HNS.TO](https://hns.to) is insecure for browsing Handshake domains and should only be used for demo or educational purposes.  
+**Recommended alternatives**:
+- fingertip: [LETSDANE](https://github.com/imperviousinc/fingertip), [SANE](https://github.com/randomlogin/fingertip)
+- Browser with HNS support: [Carbon](https://carbon.website/), [Aloha](https://alohabrowser.com/), [MASQ](https://www.masqbrowser.com/)
+- DNS settings: [HNSDNS](https://hnsdns.com/), [HDNS](https://www.hdns.io/), [HNSDOH](https://welcome.hnsdoh.com/)
+
+### Local Storage
+Data is stored locally in the browser (`localStorage`). Please note:
+- Ensure your device is secure
+- Regularly use the export feature to back up contacts
+- Data is browser/device-specific (not synced automatically)
