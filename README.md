@@ -14,7 +14,7 @@
 - **Auto-Fetching Input Field**: Enter a domain to automatically fetch TXT records; the input field lights up green when valid data is found. *(Note: Sometimes, adding a space after the domain is required to trigger fetching.)*
 - **HNS & ICANN Compatibility**: Supports both Handshake (HNS) and traditional ICANN domains.
 - **Subdomain-Specific Contact Lists**: Maintain separate contact lists for different subdomains (e.g., work.dcall, friends.dcall, sidechicks.dcall).
-- **Progressive Web App (PWA)**: Save DCALL as an app on mobile or desktop for offline access.
+- **Progressive Web App (PWA)**: Save DCALL as an app on mobile or desktop.
 - **Shareable Contact Links**: Share your contact info easily using URLs like [https://dcall/hackbase](https://dcall/hackbase) or [https://dcall.hns.to/hackbase](https://dcall.hns.to/hackbase), which autofill the input field in DCALL.
 
 ## Data Storage
@@ -77,8 +77,8 @@ DCALL fetches DNS TXT records for a given domain and processes records with the 
 [HNS.TO](https://hns.to) is insecure for browsing Handshake domains and should only be used for demo or educational purposes.  
 **Recommended alternatives**:
 - fingertip: [LETSDANE](https://github.com/imperviousinc/fingertip), [SANE](https://github.com/randomlogin/fingertip)
-- Browser with HNS support: [Carbon](https://carbon.website/), [Aloha](https://alohabrowser.com/), [MASQ](https://www.masqbrowser.com/)
 - DNS settings: [HNSDNS](https://hnsdns.com/), [HDNS](https://www.hdns.io/), [HNSDOH](https://welcome.hnsdoh.com/)
+- Browser with HNS support: [Carbon](https://carbon.website/), [Aloha](https://alohabrowser.com/), [MASQ](https://www.masqbrowser.com/)
 
 ### Local Storage
 Data is stored locally in the browser (`localStorage`). Please note:
