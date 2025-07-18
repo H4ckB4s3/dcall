@@ -1,6 +1,6 @@
 # DCALL - Decentralized Contact Directory
 
-![DCALL Logo](/img/dcall.png)
+![DCALL Logo](/img/icon-192.png)
 
 DCALL is a decentralized contact directory application that leverages Handshake domains to fetch and manage contact information stored in DNS TXT records. It allows users to save, update, and organize contacts with support for various communication platforms and cryptocurrency wallets. The application is designed to be user-friendly, privacy-focused, and compatible with both Handshake (HNS) and ICANN domains.
 
